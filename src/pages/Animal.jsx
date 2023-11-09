@@ -13,7 +13,7 @@ function Animal() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/animals/${id}`)
+      .get(`https://furrytales-api/api/animals/${id}`)
       .then((response) => {
         setAnimalData(response.data);
       })
