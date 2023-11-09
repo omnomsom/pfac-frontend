@@ -8,7 +8,7 @@ function Gallery() {
 
   useEffect(() => {
     axios
-      .get("https://furrytales-api/api/animals/")
+      .get("https://furrytales-api.onrender.com/api/animals")
       .then((response) => {
         setAnimalData(response.data);
         console.log(response.data);

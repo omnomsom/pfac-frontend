@@ -13,7 +13,7 @@ function Animal() {
 
   useEffect(() => {
     axios
-      .get(`https://furrytales-api/api/animals/${id}`)
+      .get(`https://furrytales-api.onrender.com/api/animals/${id}`)
       .then((response) => {
         setAnimalData(response.data);
       })
